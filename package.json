@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx tsc && node build/ts/index.js",
+    "start": "npx tsc && node build/js/index.js",
     "start:dev": "ts-node-dev --respawn --transpile-only src/ts/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
